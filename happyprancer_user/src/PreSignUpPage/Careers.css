@@ -22,7 +22,7 @@
     width: 50rem;
 }
 .Careers_radio_div_heading{
-    font-size: 1.8rem;
+    font-size: var(--font_semi_heading);
     font-weight: 500;
 }
 .Careers_radio_div_container{
@@ -30,9 +30,8 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    font-size: 1.5rem;
+    font-size: var(--font_semi_heading_light);
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 .Careers_radio_div_container label{
     display: flex;

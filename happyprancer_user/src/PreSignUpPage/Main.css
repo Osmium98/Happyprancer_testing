@@ -14,12 +14,12 @@
     gap: 2rem;
 }
 .Main_Left_heading{
-    font-size: 9rem;
+    font-size: var(--font_lg);
     line-height: 12rem;
     font-weight: 500;
 }
 .Main_Left_des{
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
 }
 .Main_Right{
     position: relative;

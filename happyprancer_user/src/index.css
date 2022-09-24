@@ -46,12 +46,12 @@ body,html{
   --text: #132D3D;
 
   --font_lg: 9rem;
+  --font_semi_lg: 7rem;
+  --font_mid: 5rem;
   --font_heading: 4rem;
   --font_heading_light: 3rem;
+  --font_heading_light_pro: 2.5rem;
   --font_semi_heading: 2rem;
   --font_semi_heading_light: 1.5rem;
-
-  --font_opacity_l1: .7;
-  --font_opacity_l2: .5;
-  --font_opacity_l3: .3;
+  --font_sub: 1.2rem;
 }

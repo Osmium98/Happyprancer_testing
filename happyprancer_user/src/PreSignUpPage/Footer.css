@@ -1,6 +1,5 @@
 .Footer{
     width: 100%;
-    /* height: 70vh; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -21,7 +20,7 @@
     top: -13rem;
 }
 .Footer_getstarted_heading{
-    font-size: 2.8rem;
+    font-size: var(--font_heading_light);
     font-weight: 500;
 }
 .FooterContent{
@@ -56,18 +55,18 @@
     gap: 1rem;
 }
 .Footer_Pages_Heading{
-    font-size: 2.4rem;
+    font-size: var(--font_heading_light_pro);
     color: #fff;
     margin-bottom: 1rem;
     font-weight: 400;
 }
 .Footer_Pages_Items{
-    font-size: 1.4rem;
+    font-size: var(--font_semi_heading_light);
     font-weight: 400;
     color: #fff;
 }
 .Footer_Pages_semi_Heading{
-    font-size: 1.7rem;
+    font-size: var(--font_semi_heading_light);
     color: #fff;
 }
 .Footer_email_suscribe{
@@ -103,7 +102,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    font-size: 3rem;
+    font-size: var(--font_heading_light);
 }
 .Footer_Copyright{
     width: 100%;
@@ -112,14 +111,11 @@
     justify-content: center;
     color: #fff;
     font-weight: 200;
-    font-size: 1.3rem;
+    font-size: var(--font_sub);
     background: #3a7b99;
     padding-bottom: 2rem;
 }
 @media (max-width: 850px) {
-    .Footer{
-        /* height: 50vh; */
-    }
     .Footer_logo img{
         width: 8rem;
         height: 8rem;
@@ -132,5 +128,19 @@
     }
     .Footer_getstarted_heading{
         font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .Footer_getstarted{
+        padding: 0rem 2.5rem 0rem 2.5rem;
+    }
+    .FooterContent{
+        flex-direction: column;
+        gap: 8rem;
+    }
+    .Footer_Pages{
+        align-items: center;
     }
 }

@@ -60,7 +60,7 @@
     justify-content: space-between;
 }
 .Card1_members{
-    font-size: 1.3rem;
+    font-size: var(--font_semi_heading_light);
 }
 
 
@@ -90,10 +90,10 @@
     height: 70%;
 }
 .Card2_heading{
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
 }
 .Card2_des{
-    font-size: 1.3rem;
+    font-size: var(--font_sub);
 }
 
 /* Card3 */
@@ -117,11 +117,11 @@
     padding: 1rem;
 }
 .Card3_des,.Card3btnr{
-    font-size: 1.15rem;
+    font-size: var(--font_sub);
     color: rgb(56, 56, 56)
 }
 .Card3_heading{
-    font-size: 1.65rem;
+    font-size: 1.4rem;
     font-weight: 500;   
     flex-shrink: 0;
 }
@@ -140,7 +140,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: var(--font_sub);
 }
 
 /* Card4 */
@@ -166,7 +166,7 @@
 .Card4Savebtn{
     width: 2.5rem;
     height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: var(--font_semi_heading_light);
     top: 1rem;
     right: 1rem;
 }
@@ -174,9 +174,9 @@
     padding-left:1rem;
 }
 .Card4_heading{
-    font-size: 2rem;
+    font-size: var(--font_semi_heading_);
     font-weight: 500;
 }
 .Card4_des{
-    font-size: 1rem;
+    font-size: var(--font_sub);
 }

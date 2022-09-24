@@ -16,9 +16,9 @@
     gap: 2rem;
 }
 .Privacy_Header{
-    font-size: 5rem;
+    font-size: var(--font_mid);
     font-weight: 600;
 }
 .Privacy_text{
-    font-size: 1.5rem;
+    font-size: var(--font_semi_heading_light);
 }

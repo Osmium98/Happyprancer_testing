@@ -26,12 +26,12 @@
     gap: 1.3rem;
 }
 .Dashboard_main_Welcome_content_heading{
-    font-size: 2.4rem;
+    font-size: var(--font_heading_light_pro);
     color: #FF808B;
     font-weight: 500;
 }
 .Dashboard_main_Welcome_content_des{
-    font-size: 1.5rem;
+    font-size: var(--font_semi_heading_light);
 }
 .Dashboard_main_Welcome_content_btn{
     width: 16rem;
@@ -49,10 +49,9 @@
 
 /* Profile Card */
 .Profile_notfound_text{
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
 }
 .Dashboard_main_Profile{
-    /* width: 40rem; */
     width: 40%;
     min-height: 27rem;
     padding: 1.5rem 0rem 1.5rem 0rem;
@@ -79,7 +78,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.3rem;
+    font-size: var(--font_heading_light_pro);
     color: #fff;
     position: absolute;
     top: 1rem;
@@ -98,7 +97,7 @@
 }
 .Dashboard_main_Profile_name{
     width: 70%;
-    font-size: 2.4rem;
+    font-size: var(--font_heading_light_pro);
     background: transparent;
     border: none;
     outline: none;
@@ -106,7 +105,7 @@
     color: #fff;
 }
 .Dashboard_main_Profile_des_content{
-    font-size: 1.2rem;
+    font-size: var(--font_sub);
     background: transparent;
     border: none;
     outline: none;
@@ -118,7 +117,7 @@
     box-sizing: content-box;
 }
 .Dashboard_main_Profile_des_content_sm{
-    font-size: 1.2rem;
+    font-size: var(--font_sub);
     background: transparent;
     border: none;
     outline: none;
@@ -131,13 +130,12 @@
     padding: .4rem 1rem .4rem 1rem;
 }
 .Dashboard_main_Profile_des_content_sm{
-    /* width: 35%; */
     width: 100%;
     padding: .4rem 1rem .4rem 1rem;
 }
 .Dashboard_main_Profile_des{
     width: 90%;
-    font-size: 1.2rem;
+    font-size: var(--font_sub);
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -155,7 +153,6 @@
 
 /* Quote Card */
 .Dashboard_main_Quote{
-    /* width: 65rem; */
     width: 55%;
     height: 27rem;
     border-radius: 1.5rem;
@@ -167,8 +164,6 @@
     width: 30%;
     height: 100%;
     object-fit: cover;
-    /* transform: scale(1.2);
-    margin-left: 3rem; */
 }
 .Dashboard_main_Quote_content{
     width: 100%;
@@ -178,7 +173,7 @@
     justify-content: center;
     text-align: center;
     color: #000;
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
     padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -203,7 +198,7 @@
         gap: 5rem;
     }
     .Dashboard_main_Welcome_content_btn{
-        font-size: 1.3rem;
+        font-size: var(--font_sub);
         padding: 1rem;
         width: 12rem;
     }

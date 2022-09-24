@@ -1,26 +1,51 @@
-
 @media (max-width: 850px) {
-    body,html{
+
+    body,
+    html {
         font-size: 9px;
     }
 }
+
 @media (max-width: 750px) {
-    body,html{
+
+    body,
+    html {
         font-size: 8px;
     }
+
+    :root {
+        --font_lg: 10rem;
+        --font_semi_lg: 8rem;
+        --font_mid: 6rem;
+        --font_heading: 5rem;
+        --font_heading_light: 4rem;
+        --font_heading_light_pro: 3rem;
+        --font_semi_heading: 2rem;
+        --font_semi_heading_light: 2rem;
+        --font_sub: 1.5rem;
+    }
 }
+
 @media (max-width: 650px) {
-    body,html{
+
+    body,
+    html {
         font-size: 7px;
     }
 }
+
 @media (max-width: 550px) {
-    body,html{
+
+    body,
+    html {
         font-size: 6px;
     }
 }
+
 @media (max-width: 450px) {
-    body,html{
+
+    body,
+    html {
         font-size: 5px;
     }
 }

@@ -12,7 +12,7 @@
     gap: 2.5rem;
 }
 .Message_container_heading{
-    font-size: 6rem;
+    font-size: var(--font_semi_lg);
 }
 .Message_container_submit{
     width: 15rem;

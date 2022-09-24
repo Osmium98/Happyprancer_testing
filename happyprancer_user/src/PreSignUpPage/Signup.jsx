@@ -91,7 +91,7 @@ const Signup = () => {
           </div>
           <div className="signup_text">---- Lets Create A Happy World ----</div>
           <button className="Signup_Submit_btn" disabled={!validateForm()} onClick={handleSubmit}>SignUp</button>
-          <div className="signup_forgot">Want To Sign In ?</div>
+          <div className="signup_forgot ">Want To  <a href="/signin">Sign In ?</a></div>
         </div>
       </div>
     )
@@ -106,7 +106,7 @@ const Signup = () => {
             <input type="tel" className="Signup_input" placeholder="Confirmation Code" value={confirmationCode} onChange={(e) => setconfirmationCode(e.target.value)} />
           </div>
           <button className="Signup_Submit_btn" disabled={!validateConfirmationForm()} onClick={(e)=>{handleConfirmationSubmit(e)}} >Confirm</button>
-          <div className="signup_forgot">Want To Sign In ?</div>
+          <div className="signup_forgot ">Want To  <a href="/signin">Sign In ?</a></div>
         </div>
       </form>
     );

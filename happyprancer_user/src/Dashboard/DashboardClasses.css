@@ -1,6 +1,5 @@
 .DashboardClasses{
     width: 100%;
-    /* height: 100%; */
     padding: 5rem;
     display: flex;
     justify-content: center;
@@ -25,7 +24,7 @@
 }
 .DashboardClasses_table_heading{
     width: 100%;
-    font-size: 2.3rem;
+    font-size: var(--font_heading_light_pro);
 }
 .DashboardClasses_table_container_table{
     width: 100%;
@@ -35,7 +34,7 @@
 .DashboardClasses_table_container_table table{
     width: 100%;
     height: auto;
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -89,10 +88,10 @@
     gap: .6rem;
 }
 .DashboardClasses_attendance_des_heading,.DashboardClasses_zpoints_des_heading{
-    font-size: 2.4rem;
+    font-size: var(--font_heading_light_pro);
 }
 .DashboardClasses_attendance_des_content,.DashboardClasses_zpoints_des_content{
-    font-size: 1.4rem;
+    font-size: var(--font_semi_heading_light);
 }
 
 

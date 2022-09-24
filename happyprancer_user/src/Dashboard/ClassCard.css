@@ -26,7 +26,7 @@
 .Savebtn{
     width: 3.5rem;
     height: 3.5rem;
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
     top: 1.5rem;
     right: 1.5rem;
     border-radius: .5rem;
@@ -58,5 +58,5 @@
     justify-content: space-between;
 }
 .CLassCard_members{
-    font-size: 1.3rem;
+    font-size: var(--font_sub);
 }

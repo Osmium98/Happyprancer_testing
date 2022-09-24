@@ -65,7 +65,7 @@ const SignIn = () => {
                     <i className="Social_federation_icons fab fa-github"></i>
                     <i className="Social_federation_icons fab fa-facebook" onClick={()=>{console.log("SignIn g")}}></i>
                 </div>
-                <div className="continue_text">Not a member? Resister Now</div>
+                <div className="continue_text">Not a member? <a href="/signup">Resister Now</a></div>
             </div>
         </div>
     )

@@ -8,6 +8,6 @@
     gap: 10rem;
 }
 .Nopage_text{
-    font-size: 9rem;
+    font-size: var(--font_lg);
     font-weight: 600;
 }

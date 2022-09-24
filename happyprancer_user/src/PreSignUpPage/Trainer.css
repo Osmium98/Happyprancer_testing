@@ -24,11 +24,11 @@
     border-radius: 50%;
 }
 .TrainerCard_content_name{
-    font-size: 2.3rem;
+    font-size: var(--font_heading_light_pro);
     font-weight: 400;
 }
 .TrainerCard_content_license{
-    font-size: 1.6rem;
+    font-size: var(--font_semi_heading_light);
     color: #434343;
 }
 
@@ -42,7 +42,7 @@
 }
 .TrainerHeading{
     width: 100%;
-    font-size: 6rem;
+    font-size: var(--font_mid);
 }
 .TrainerContainer{
     display: flex;
@@ -63,19 +63,19 @@
     gap: 3rem;
 }
 .TrainerRight_heading{
-    font-size: 2.5rem;
+    font-size: var(--font_heading_light_pro);
 }
 .TrainerRight_time{
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
 }
 .TrainerRight_about{
-    font-size: 1.6rem;
+    font-size: var(--font_semi_heading_light);
 }
 .License_heading{
-    font-size: 2rem;
+    font-size: var(--font_semi_heading);
 }
 .TrainerRight_licence{
-    font-size: 1.3rem;
+    font-size: var(--font_sub);
 }
 
 

@@ -14,7 +14,7 @@
 }
 .Nav_menu{
     gap: 4rem;
-    font-size: 2rem;
+    font-size: var(--font_heading_light_pro);
 }
 .Nav_btns{
     gap: 3rem;

@@ -1,6 +1,5 @@
 .About{
     width: 100%;
-    /* min-height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,10 +35,10 @@
     text-align: justify;
 }
 .About_heading{
-    font-size: 4rem;
+    font-size: var(--font_heading);
 }
 .About_des{
-    font-size: 1.7rem;
+    font-size: var(--font_semi_heading_light);
 }
 .About_des span{
     font-weight: 500;
@@ -49,7 +48,8 @@
 
 @media (max-width: 950px) {
     .AboutContainer{
+        margin-top: 5rem;
         flex-direction: column;
-        gap: 8rem;
+        gap:10rem;
     }
 }
