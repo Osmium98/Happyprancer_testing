@@ -1,0 +1,26 @@
+.AboutMax{
+    width: 100%;
+    min-height: 100vh;
+}
+.AboutMax_container{
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.AboutMax_container_heading{
+    font-size: 3.5rem;
+}
+.AboutMax_container_text{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 70%;
+}
+@media (max-width: 668px) {
+    .AboutMax_container_text{
+        width: 85%;
+    }
+}

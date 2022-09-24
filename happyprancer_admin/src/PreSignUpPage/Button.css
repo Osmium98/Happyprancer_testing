@@ -1,0 +1,40 @@
+.Button{
+    padding: 5px 25px 5px 25px;
+    border-radius: 1.2rem;
+    font-size: var(--font_semi_heading);
+    color: var(--white);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.Button::after{
+    content: ' ';
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    bottom: -10%;
+    left: 20%;
+    filter: blur(12px);
+}
+.Btn_Blue{
+    background: var(--light_blue);
+}
+.Btn_Blue::after{
+    background: var(--light_blue);
+}
+.Btn_Green{
+    background: var(--light_green);
+}
+.Btn_Green::after{
+    background: var(--light_green);
+}
+.Btn_Red{
+    background: var(--light_red);
+}
+.Btn_Red::after{
+    background: var(--light_red);
+}

@@ -1,0 +1,252 @@
+.Dashboard_main{
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Welcome Card */
+.Dashboard_main_Welcome{
+    max-width: 95%;
+    height: 27rem;
+    border-radius: 1.5rem;
+    padding: 5rem;
+    background: #FF808B20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Dashboard_main_Welcome_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.Dashboard_main_Welcome_content_heading{
+    font-size: 2.4rem;
+    color: #FF808B;
+    font-weight: 500;
+}
+.Dashboard_main_Welcome_content_des{
+    font-size: 1.5rem;
+}
+.Dashboard_main_Welcome_content_btn{
+    width: 16rem;
+}
+.Dashboard_main_Welcome_img{
+    width: 35rem;
+}
+/* Bottom */
+.Dashboard_main_bottom{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* Profile Card */
+.Profile_notfound_text{
+    font-size: 2rem;
+}
+.Dashboard_main_Profile{
+    /* width: 40rem; */
+    width: 40%;
+    min-height: 27rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    border-radius: 1.5rem;
+    background: #12558A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    gap: 2rem;
+    transition: all .4s;
+}
+.Dashboard_main_Profile_active{
+    position: absolute;
+}
+.Dashboard_main_Profile_editbtn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #ffffff25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    outline: none;
+}
+.Dashboard_main_Profile_img{
+    width: 7.4rem;
+    height: 7.4rem;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    border: 4px dashed #ffffff4c;
+    object-fit: cover;
+}
+.Dashboard_main_Profile_name{
+    width: 70%;
+    font-size: 2.4rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+.Dashboard_main_Profile_des_content{
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    background: #ffffff40;
+    border-radius: .7rem;
+    padding: .4rem 1rem .4rem 1rem;
+    box-sizing: content-box;
+}
+.Dashboard_main_Profile_des_content_sm{
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+.Dashboard_main_Profile_name_active{
+    background: #ffffff40;
+    border-radius: .7rem;
+    padding: .4rem 1rem .4rem 1rem;
+}
+.Dashboard_main_Profile_des_content_sm{
+    /* width: 35%; */
+    width: 100%;
+    padding: .4rem 1rem .4rem 1rem;
+}
+.Dashboard_main_Profile_des{
+    width: 90%;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+.Dashboard_main_Profile_des_genderage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.gender{
+    width: 20rem;
+}
+
+/* Quote Card */
+.Dashboard_main_Quote{
+    /* width: 65rem; */
+    width: 55%;
+    height: 27rem;
+    border-radius: 1.5rem;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+}
+.Dashboard_main_Quote_img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    /* transform: scale(1.2);
+    margin-left: 3rem; */
+}
+.Dashboard_main_Quote_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+@media (max-width: 1300px) {
+    .Dashboard_main_Profile{
+        width: 60%;
+    }
+}
+@media (max-width: 1000px) {
+    .Dashboard_main_Welcome{
+        max-width: 100%;
+        height: 30rem;
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .Dashboard_main_bottom{
+        width: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 5rem;
+    }
+    .Dashboard_main_Welcome_content_btn{
+        font-size: 1.3rem;
+        padding: 1rem;
+        width: 12rem;
+    }
+    .Dashboard_main_Profile,.Dashboard_main_Quote{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .Dashboard_main{
+        height: 160%;
+        padding: 3rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .Dashboard_main{
+        height: 110%;
+        padding: 3rem;
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    .Dashboard_main_Welcome{
+        width: 95%;
+        height: 40rem;
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .Dashboard_main_Welcome_img{
+        margin-right: -35%;
+    }
+    .Dashboard_main{
+        height: 130%;
+        justify-content: center;
+    } 
+}
+
+@media (max-width: 400px) {
+    .Dashboard_main{
+        height: 140%;
+        padding: 1rem;
+        justify-content: center;
+    }
+}

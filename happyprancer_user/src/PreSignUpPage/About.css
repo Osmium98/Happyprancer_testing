@@ -1,0 +1,55 @@
+.About{
+    width: 100%;
+    /* min-height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.AboutContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AboutLeft{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto auto;
+}
+.leftcard,.rightcard{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.rightcard{
+    gap: 3rem;
+}
+.AboutRight{
+    max-width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-direction: column;
+    text-align: justify;
+}
+.About_heading{
+    font-size: 4rem;
+}
+.About_des{
+    font-size: 1.7rem;
+}
+.About_des span{
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 950px) {
+    .AboutContainer{
+        flex-direction: column;
+        gap: 8rem;
+    }
+}

@@ -1,0 +1,24 @@
+.Privacy{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.Privacy_container{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Privacy_Header{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.Privacy_text{
+    font-size: 1.5rem;
+}

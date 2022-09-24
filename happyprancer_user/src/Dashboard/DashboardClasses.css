@@ -1,0 +1,146 @@
+.DashboardClasses{
+    width: 100%;
+    /* height: 100%; */
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+.DashboardClasses_bottom{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.DashboardClasses_table_container{
+    width: 90%;
+    min-height: 30rem;
+    border-radius: 1.5rem;
+    padding: 2rem 5rem 2rem 5rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.DashboardClasses_table_heading{
+    width: 100%;
+    font-size: 2.3rem;
+}
+.DashboardClasses_table_container_table{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.DashboardClasses_table_container_table table{
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+.DashboardClasses_table_container_table thead{
+    width: 100%;
+    height: 3rem;
+}
+.DashboardClasses_table_container_table tbody{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.Table_btn{
+    width: 70%;
+}
+.DashboardClasses_table_container_table tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DashboardClasses_table_container_table td,th{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DashboardClasses_attendance,.DashboardClasses_zpoints{
+    width: 45%;
+    height: 17rem;
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.DashboardClasses_attendance_img,.DashboardClasses_zpoints_img{
+    width: 12rem;
+}
+.DashboardClasses_attendance_des,.DashboardClasses_zpoints_des{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.DashboardClasses_attendance_des_heading,.DashboardClasses_zpoints_des_heading{
+    font-size: 2.4rem;
+}
+.DashboardClasses_attendance_des_content,.DashboardClasses_zpoints_des_content{
+    font-size: 1.4rem;
+}
+
+
+@media (max-width: 1300px) {
+    .DashboardClasses_attendance,.DashboardClasses_zpoints{
+        width: 50%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .DashboardClasses_bottom{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .DashboardClasses_attendance,.DashboardClasses_zpoints{
+        width: 90%;
+    }
+    .DashboardClasses{
+        width: 100%;
+        padding: 2rem;
+    }
+    .DashboardClasses_table_container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .DashboardClasses{
+        /* height: 160%; */
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .DashboardClasses{
+        /* height: 120%; */
+        gap: 5rem;
+    }
+}
+@media (max-width: 500px) {
+    .DashboardClasses{
+        /* height: 100%; */
+        gap: 5rem;
+    }
+    .DashboardClasses_attendance,.DashboardClasses_zpoints{
+        width: 100%;
+    }
+}

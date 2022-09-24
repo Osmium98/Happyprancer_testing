@@ -1,0 +1,112 @@
+.TrainerCard{
+    width: 41rem;
+    height: 12rem;
+    border-radius: 1.1rem;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding: 2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+.TrainerCard:hover{
+    background: #fff;
+    box-shadow: 0px 28px 35px #00000015;
+}
+.ActiveTrainerCard{
+    background: #fff;
+    box-shadow: 0px 28px 35px #00000015;
+}
+.TrainerCard_img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.TrainerCard_content_name{
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.TrainerCard_content_license{
+    font-size: 1.6rem;
+    color: #434343;
+}
+
+.Trainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.TrainerHeading{
+    width: 100%;
+    font-size: 6rem;
+}
+.TrainerContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.TrainerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+.TrainerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 3rem;
+}
+.TrainerRight_heading{
+    font-size: 2.5rem;
+}
+.TrainerRight_time{
+    font-size: 2rem;
+}
+.TrainerRight_about{
+    font-size: 1.6rem;
+}
+.License_heading{
+    font-size: 2rem;
+}
+.TrainerRight_licence{
+    font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 850px) {
+    .TrainerHeading{
+        text-align: center;
+    }
+    .Trainer{
+        justify-content: center;
+    }
+    .TrainerContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10rem;
+    }
+    .TrainerRight{
+        text-align: center;
+        width: 80%;
+    }
+}
+
+
+/* @media (max-width: 700px) {
+    .Trainer{
+        height: 140vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .Trainer{
+        height: 100vh;
+    }
+} */

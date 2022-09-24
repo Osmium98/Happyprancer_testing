@@ -1,0 +1,55 @@
+.Main{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem 2rem 8rem;
+    margin-top: -7rem;
+}
+.Main_Left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Main_Left_heading{
+    font-size: 9rem;
+    line-height: 12rem;
+    font-weight: 500;
+}
+.Main_Left_des{
+    font-size: 2rem;
+}
+.Main_Right{
+    position: relative;
+    display: flex;
+    margin-right: 13rem;
+}
+
+@media (max-width: 1000px) {
+    .Main{
+        flex-direction: column-reverse;
+        margin-top: 2%;
+        gap: 12rem;
+        min-height: 85vh;
+    }
+    .Main_Right{
+        margin-right: 0rem;
+    }
+    .Main_Left{
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    .Main{
+        gap: 16rem;
+    }
+}
+@media (max-width: 420px) {
+    .Main{
+        width: 100%;
+        margin-top: 10%;
+    }
+}

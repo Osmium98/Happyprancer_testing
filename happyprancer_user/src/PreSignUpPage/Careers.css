@@ -1,0 +1,42 @@
+.Careers{
+    width: 100%;
+    min-height: 100vh;
+}
+.Careers_radio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.Careers_radio_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    background: #dfe9f5;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50rem;
+}
+.Careers_radio_div_heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.Careers_radio_div_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+.Careers_radio_div_container label{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}

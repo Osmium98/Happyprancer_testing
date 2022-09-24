@@ -1,0 +1,102 @@
+.GetStarted{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.GetStarted_heading{
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+.GetStarted_container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.GetStarted_Left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.GetStarted_Right{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .GetStarted_Right img{
+    height: 100%;
+    width: 100%;
+} */
+.GetStarted_flow{
+    width: 10rem;
+    height: 42rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.GetStarted_details{
+    width: 40rem;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.dot_line{
+    position: absolute;
+    width: 4px;
+    height: 80%;
+    background: repeating-linear-gradient(to bottom,#000 0,#000 15px,transparent 15px,transparent 28px);
+    top: 5rem;
+    left: 3.3rem;
+}
+.step{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 2.3rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    z-index: 3;
+    box-shadow: 0px 5px 40px #00000015;
+    transition: .2s;
+}
+.step:hover{
+    transform: scale(1.05);
+    color: #fabc18;
+}
+.step_heading{
+    font-size: 3rem;
+    flex-shrink: 0;
+}
+.step_des{
+    font-size: 1.4rem;
+    flex-shrink: 0;
+}
+
+
+
+@media (max-width: 1000px) {
+    .GetStarted{
+        gap: 5rem;
+    }
+    .GetStarted_container{
+        width: 100%;
+        gap: 8rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .GetStarted_container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+.Nav{
+    width: 100%;
+    padding: 2rem 7rem 2rem 7rem;
+}
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Nav_menu,.Nav_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Nav_menu{
+    gap: 4rem;
+    font-size: 2rem;
+}
+.Nav_btns{
+    gap: 3rem;
+}
+.Nav_logo img{
+    width: 7rem;
+}
+.Nav_menu_items{
+    text-decoration: none;
+    color: #000
+}
+
+
+@media (max-width: 900px) {
+    .Nav{
+        flex-direction: column;
+    }
+    .Nav_btns{
+        margin-top: 2rem;
+    }
+}

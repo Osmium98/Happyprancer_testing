@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  transition: all 0.1s;
+}
+body,html{
+  background: var(--white);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+  width: 100vw;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+:root{
+  --root_background: #EEF7F9;
+  --dark_blue: #12558A;
+  --light_blue: #1294EC;
+  --light_green: #25BC96;
+  --light_green_o1: #25BC9640;
+  --light_green_o2: #25BC9680;
+  --light_red: #D03535;
+  --white: #FFFFFF;
+  --white_o1: #ffffff40;
+  --white_o2: #ffffff80;
+  --black: #000000;
+  --black_o1: #00000040;
+  --black_o2: #00000080;
+  --yellow: #FABC18;
+  --purple: #9492F7;
+  --pink: #FF808B;
+  --btn: #1294EC;
+  --text: #132D3D;
+
+  --font_lg: 9rem;
+  --font_heading: 4rem;
+  --font_heading_light: 3rem;
+  --font_semi_heading: 2rem;
+  --font_semi_heading_light: 1.5rem;
+
+  --font_opacity_l1: .7;
+  --font_opacity_l2: .5;
+  --font_opacity_l3: .3;
+}

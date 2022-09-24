@@ -1,0 +1,67 @@
+.DashboardSettings{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-top: 5rem;
+}
+.Changeitems{
+    width: 70%;
+    /* height: 20rem; */
+    background: #fff;
+    border-radius: 1rem;
+    padding: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.Changeitems_heading{
+    font-size: 2.4rem;
+}
+.Changeitems_input{
+    width: 70%;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background: #9492f746;
+    font-size: 1.7rem;
+}
+.Default_mail_heading{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.Default_mail_heading span{
+    font-size: 1.6rem;
+}
+
+@media (max-width: 850px) {
+    .Changeitems{
+        width: 80%;
+    }
+    .Changeitems_btn{
+        transform: scale(.9)
+    }
+}
+
+@media (max-width: 500px) {
+    .Changeitems{
+        width: 100%;
+    }
+    .Changeitems_btn{
+        transform: scale(.8)
+    }
+    .Changeitems_input{
+        width: 90%;
+    }
+}

@@ -1,0 +1,40 @@
+.SmCard{
+    width: 13rem;
+    height: 16.5rem;
+    background: var(--white);
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    z-index: 0;
+}
+.SmCard_img{
+    width: 6.5rem;
+    position: relative;
+}
+.SmCard_img::before{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background: url(../res/secure.png) no-repeat;
+    position: absolute;
+    bottom: -2rem;
+    filter: blur(12px);
+    left: 0;
+    opacity: .7;
+    z-index: -1;
+}
+.SmCard_img img{
+    width: 100%;
+    /* opacity: 0 */
+}
+.SmCard_heading{
+    font-size: var(--font_semi_heading)
+}
+.SmCard_des{
+    margin-top: -1rem;
+    font-size: 1.2rem;
+}

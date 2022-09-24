@@ -1,0 +1,48 @@
+.Blob_Container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+}
+.Blob_Overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #90d6e629;
+    backdrop-filter: blur(80px);   
+    -webkit-backdrop-filter: blur(80px);
+}
+.Blobs {
+    border-radius: 50%;
+    z-index: 0;
+    opacity: .8;
+    position: fixed;
+}
+.Blob_1{
+    width: 16rem;
+    height: 16rem;
+    top: 8%;
+    left: 7%;
+    background: radial-gradient( #FF6DF980,#FF6DF9); 
+}
+.Blob_2{
+    width: 21rem;
+    height: 21rem;
+    top: 44rem;
+    left: 17rem;
+    background: radial-gradient( #61D83780,#61D837); 
+}
+.Blob_3{
+    width: 21rem;
+    height: 21rem;
+    top: 17rem;
+    left: 100rem;
+    background: radial-gradient( #EE888880,#EE8888); 
+}
+.Blob_4{
+    width: 40rem;
+    height: 40rem;
+    top: 56rem;
+    left: 120rem;
+    background: radial-gradient( #369FDA80,#369FDA); 
+}

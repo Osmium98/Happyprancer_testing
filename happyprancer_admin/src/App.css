@@ -1,0 +1,12 @@
+.App{
+    width: 155rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background: transparent;
+    gap: 10rem;
+    z-index: 9;
+}

@@ -1,0 +1,81 @@
+.LgCard{
+    width: 32rem;
+    height: 32rem;
+    background: var(--white_o2);
+    backdrop-filter: blur( 10px );
+    border-radius: 3.5rem;
+    border: 1.3px solid var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.LgCard_menu_icon{
+    position: absolute;
+    top: 1.5rem;
+    right: 3rem;
+    font-size: var(--font_heading_light);
+    color: var(--black_o2);
+}
+.LgCard_content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 0rem 1rem 2rem;
+}
+.LgCard_Thumb_img{
+    width: 11rem;
+    margin-left: 1rem;
+    position: relative;
+}
+.LgCard_Thumb_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.LgCard_Thumb_img::after{
+    content:" ";
+    background: url(../res/Thumb.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -1rem;
+    bottom: -1.8rem;
+    z-index: -1;
+    opacity: .7;
+    filter: blur(15px);
+}
+.LgCard_text{
+    font-size: var(--font_heading_light);
+    font-weight: 500;
+}
+.LgCard_footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+    background: var(--light_green_o1);
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+}
+.LgCard_footer_content,.LgCard_footer_icon{
+    color: var(--light_green);
+    font-size: var(--font_semi_heading_light);
+}
+
+
+.sm-card{
+    position: absolute;
+    top: -30%;
+    right: -35%;
+}
+.md-card{
+    bottom: -35%;
+    left: -50%;
+    position: absolute;
+}

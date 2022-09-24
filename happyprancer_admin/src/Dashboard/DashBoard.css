@@ -1,0 +1,106 @@
+.DashBoard{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.DashBoard_Nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DashBoard_Container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+    overflow: hidden;
+}
+.DashBoard_Container_Content{
+    width: 80%;
+    height: 80vh;
+    padding: .4rem;
+    background: #ffffff90;
+    border-radius: 2rem;
+    padding: 2rem;
+    overflow: scroll;
+}
+.Navigation{
+    margin-top: 7rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 1.5rem;
+  border: 1px solid #42444e;
+  border-radius: 6px;
+}
+th,
+td {
+  padding: 6px 15px;
+}
+th {
+  background: #42444e;
+  color: #fff;
+  text-align: left;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+tr:nth-child(even) td {
+  background: #eaeaed;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+td,th{
+    min-width: 20rem;
+}
+.table_btn{
+    font-size: 2.5rem;
+    display: flex;
+    color: #42444e;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+@media (max-width: 950px) {
+    .DashBoard{
+        height: 140%;
+    }
+}
+@media (max-width: 600px) {
+    .Navigation{
+        margin-top: 15rem;
+    }
+}
+@media (max-width: 500px) {
+    .DashBoard{
+        align-items: center;
+        justify-content: center;
+    }
+    .DashBoard_Container_Content{
+        margin-top: 5%;
+    }
+    .DashBoard_Container{
+        gap: 1rem;
+    }
+    .Navigation{
+        margin-top: 23rem;
+    }
+} 

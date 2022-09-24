@@ -1,0 +1,65 @@
+.DashBoard{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.DashBoard::selection{
+    display: none;
+}
+.DashBoard_Nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DashBoard_Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    gap: 4rem;
+    overflow: hidden;
+}
+.DashBoard_Container_Content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: .4rem;
+}
+.Navigation{
+    margin-top: 7rem;
+}
+@media (max-width: 950px) {
+    .DashBoard{
+        height: 140%;
+    }
+}
+@media (max-width: 600px) {
+    .Navigation{
+        margin-top: 15rem;
+    }
+}
+@media (max-width: 500px) {
+    .DashBoard{
+        align-items: center;
+        justify-content: center;
+    }
+    .DashBoard_Container_Content{
+        margin-top: 5%;
+    }
+    .DashBoard_Container{
+        gap: 1rem;
+    }
+    .Navigation{
+        margin-top: 23rem;
+    }
+}

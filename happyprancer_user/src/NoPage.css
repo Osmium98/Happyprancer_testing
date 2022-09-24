@@ -1,0 +1,13 @@
+.NoPage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10rem;
+}
+.Nopage_text{
+    font-size: 9rem;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.Whatsapp {
+	background: #25d366;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+    padding: 10px;
+	border-radius: 50%;
+	animation: pulse 1.5s ease-out infinite;
+    z-index: 67;
+    display: none;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
+
+@media (max-width: 500px) {
+    .Whatsapp{
+        display: flex;
+    }
+}
