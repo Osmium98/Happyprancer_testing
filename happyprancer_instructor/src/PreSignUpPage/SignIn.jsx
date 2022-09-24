@@ -7,8 +7,6 @@ import { useAppContext } from "../libs/contextLib";
 import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
-    // const [email, setemail] = useState("");
-    // const [password, setpassword] = useState("");
     const [userData,setUserData] = useState({email:"",password:""});
 
     const [adminswitch, setadminswitch] = useState(true);
@@ -49,7 +47,7 @@ const SignIn = () => {
                     <div className="Signin_toggle_container_text">Admin</div>
                 </div>
                 <div className="Signin_heading">
-                    <span>Hello Again!</span> <br />
+                    <span>Hello Sir!</span> <br />
                     Welcome back you've <br />
                     been missed!
                 </div>
@@ -57,15 +55,8 @@ const SignIn = () => {
                     <input type="email" className="Signin_input" placeholder="Email" value={userData.email} id="email" onChange={handleChange} />
                     <input type="password" className="Signin_input" placeholder="Password" value={userData.password} id="password" onChange={handleChange} />
                 </div>
-                <div className="recovery_pas">Recover Password</div>
                 <button className="Signin_Submit_btn" disabled={!validateForm()} onClick={handleSubmit}>Sign In</button>
-                <div className="continue_text">----- or continue with -----</div>
-                <div className="Social_Signin_Container">
-                    <i className="Social_federation_icons fab fa-google" onClick={()=>{console.log("SignIn g")}}></i>
-                    <i className="Social_federation_icons fab fa-github"></i>
-                    <i className="Social_federation_icons fab fa-facebook" onClick={()=>{console.log("SignIn g")}}></i>
-                </div>
-                <div className="continue_text">Not a member? Resister Now</div>
+                <div className="continue_text">Can't Sign in Contact Admin</div>
             </div>
         </div>
     )

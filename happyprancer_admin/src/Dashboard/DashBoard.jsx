@@ -91,13 +91,10 @@ const DashBoard = () => {
                 <table>
                     <thead>
                         <tr>
+                            <th>btns</th>
                             <th>data</th>
                             <th>sfgsdfgsg</th>
                             <th>sdgsg</th>
-                            <th>sdgsdzgs</th>
-                            <th>sdgsdzgs</th>
-                            <th>sdgsg</th>
-                            <th>sdgsdzgs</th>
                             <th>sdgsdzgs</th>
                         </tr>
                     </thead>
@@ -108,7 +105,10 @@ const DashBoard = () => {
                             <td>sgsgsgs sdgsg</td>
                             <td>sdgsdgs g</td>
                             <td>sdgsgsvsv sd vs</td>
-                            <td>sdgsgsvsv sd vs</td>
+                        </tr>
+                        <tr>
+                            <td className="table_btn"><ion-icon name="create"></ion-icon><ion-icon name="trash"></ion-icon></td>
+                            <td>sdghedr</td>
                             <td>sgsgsgs sdgsg</td>
                             <td>sdgsdgs g</td>
                             <td>sdgsgsvsv sd vs</td>
@@ -119,10 +119,6 @@ const DashBoard = () => {
                             <td>sgsgsgs sdgsg</td>
                             <td>sdgsdgs g</td>
                             <td>sdgsgsvsv sd vs</td>
-                            <td>sdgsgsvsv sd vs</td>
-                            <td>sgsgsgs sdgsg</td>
-                            <td>sdgsdgs g</td>
-                            <td>sdgsgsvsv sd vs</td>
                         </tr>
                         <tr>
                             <td className="table_btn"><ion-icon name="create"></ion-icon><ion-icon name="trash"></ion-icon></td>
@@ -130,29 +126,10 @@ const DashBoard = () => {
                             <td>sgsgsgs sdgsg</td>
                             <td>sdgsdgs g</td>
                             <td>sdgsgsvsv sd vs</td>
-                            <td>sdgsgsvsv sd vs</td>
-                            <td>sgsgsgs sdgsg</td>
-                            <td>sdgsdgs g</td>
-                            <td>sdgsgsvsv sd vs</td>
                         </tr>
                         <tr>
                             <td className="table_btn"><ion-icon name="create"></ion-icon><ion-icon name="trash"></ion-icon></td>
                             <td>sdghedr</td>
-                            <td>sgsgsgs sdgsg</td>
-                            <td>sdgsdgs g</td>
-                            <td>sdgsgsvsv sd vs</td>
-                            <td>sdgsgsvsv sd vs</td>
-                            <td>sgsgsgs sdgsg</td>
-                            <td>sdgsdgs g</td>
-                            <td>sdgsgsvsv sd vs</td>
-                        </tr>
-                        <tr>
-                            <td className="table_btn"><ion-icon name="create"></ion-icon><ion-icon name="trash"></ion-icon></td>
-                            <td>sdghedr</td>
-                            <td>sgsgsgs sdgsg</td>
-                            <td>sdgsdgs g</td>
-                            <td>sdgsgsvsv sd vs</td>
-                            <td>sdgsgsvsv sd vs</td>
                             <td>sgsgsgs sdgsg</td>
                             <td>sdgsdgs g</td>
                             <td>sdgsgsvsv sd vs</td>

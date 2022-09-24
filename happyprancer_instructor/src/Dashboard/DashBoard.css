@@ -16,22 +16,18 @@
 .DashBoard_Container{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 4rem;
     overflow: hidden;
 }
 .DashBoard_Container_Content{
-    width: 50rem;
+    width: 80%;
     height: 80vh;
     padding: .4rem;
     background: #ffffff90;
     border-radius: 2rem;
     padding: 2rem;
     overflow: scroll;
-}
-.Navigation{
-    /* width: 20%; */
-    margin-top: 7rem;
 }
 
 table {

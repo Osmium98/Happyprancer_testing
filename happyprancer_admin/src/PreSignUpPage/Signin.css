@@ -9,7 +9,7 @@
 }
 .Signin_container{
     width: 37rem;
-    padding: 2rem 0 2rem 0;
+    padding: 3rem 0 3rem 0;
     background: #fff;
     border-radius: 1rem;
     text-align: center;
@@ -20,6 +20,7 @@
     justify-content: space-around;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 7rem;
 }
 .Signin_toggle_container{
     width: 70%;

@@ -30,7 +30,7 @@ const Nav = () => {
             </div>
             <div className="Nav_btns">
                 {isAuthenticated ? (<>
-                    {/* <span onClick={handleLogout}><Button text="Log Out" color="Red" /></span> */}
+                    <span onClick={handleLogout}><Button text="Log Out" color="Red" /></span>
                 </>
                 ) : (<>
                     <a className="Nav_menu_items" href="/signin"><Button text="Log In" color="Blue" /></a>
